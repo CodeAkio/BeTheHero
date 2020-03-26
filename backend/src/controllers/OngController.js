@@ -14,15 +14,19 @@ module.exports = {
 
     const id = crypto.randomBytes(4).toString('HEX');
 
-    await connection('ongs').insert({
-      id,
-      name,
-      email,
-      whatsapp,
-      city,
-      uf,
-    });
+    try {
+      await connection('ongs').insert({
+        id,
+        name,
+        email,
+        whatsapp,
+        city,
+        uf,
+      });
 
-    return res.json({ id });
+      return res.json({ id });
+    } catch (error) {
+      return res.status(400).json({ error: 'Validation error' });
+    }
   }
 }
