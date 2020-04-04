@@ -30,7 +30,7 @@
 #### Mobile
 
 <p align="center">
-  <img alt="web" src="https://github.com/CodeAkio/FastFeet/raw/master/.github/bth_mobile.gif" width="100%">
+  <img alt="web" src="https://github.com/CodeAkio/BeTheHero/blob/master/.github/bth_mobile.gif" width="100%">
 </p>
 
 <br>
@@ -38,7 +38,7 @@
 #### Web
 
 <p align="center">
-  <img alt="web" src="https://github.com/CodeAkio/FastFeet/raw/master/.github/bth_web.gif" width="100%">
+  <img alt="web" src="https://github.com/CodeAkio/BeTheHero/blob/master/.github/bth_web.gif" width="100%">
 </p>
 
 <br>
